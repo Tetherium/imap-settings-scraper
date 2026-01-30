@@ -21,7 +21,7 @@ git clone [https://github.com/Tetherium/imap-settings-scraper.git](https://githu
 cd imap-settings-scraper
 ```
 
-2. Install Dependencies
+### 2. Install Dependencies
 Install the required Selenium library using pip:
 
 ```bash
@@ -29,7 +29,7 @@ Install the required Selenium library using pip:
 pip install -r requirements.txt
 ```
 
-3. Prepare Input Data
+### 3. Prepare Input Data
 Create a file named INPUT.txt in the root directory. Add the domains you want to scan, one domain per line.
 
 Example INPUT.txt:
@@ -62,7 +62,6 @@ Rate Limiting: If you have a very large list, consider increasing the sleep() du
 
 Formatting: Ensure INPUT.txt has no empty lines or spaces for the best results.
 
-📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 Developed by Tetherium
+
